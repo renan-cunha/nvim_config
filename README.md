@@ -1,0 +1,21 @@
+Neo-vim init.vim file 
+.mypy.ini config file for static python
+
+
+To use it
+
+1. Install neovim
+2. Install mypy python package
+3. mv init.vim to ~/.config/nvim/init.vim
+4. mv .mypy.ini to ~/
+5. Install vundle
+```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
+```
+6. Run :PluginInstall in the first time nvim is opened
+
+Screenshots:
+[![](https://i.imgur.com/pkXhP1n.png)]
+(https://i.imgur.com/pkXhP1n.png)
+[![](https://i.imgur.com/IAprHYH.png)]
+(https://i.imgur.com/IAprHYH.png)
