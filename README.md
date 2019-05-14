@@ -5,7 +5,10 @@ Neo-vim init.vim file
 To use it
 
 1. Install neovim
-2. Install mypy python package
+2. Install mypy and flake8 python package
+```bash
+pip install mypy flake8
+```
 3. move init.vim to ~/.config/nvim/init.vim
 4. move .mypy.ini to ~/
 5. Install vundle
