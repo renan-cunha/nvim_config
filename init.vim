@@ -60,6 +60,11 @@ let g:airline_skip_empty_sections = 1
 "syntastic
 let g:syntastic_python_checkers = ['flake8', 'mypy']
 
+
+"strange characters
+echo $VTE_VERSION
+
+
 "Map tab transitions
 no <C-Down> <C-w>j "switching to below window 
 no <C-Up> <C-w>k "switching to above window
@@ -88,3 +93,7 @@ set tw=80
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+
+vnoremap <C-c> "+y
+
+set guicursor="0"
