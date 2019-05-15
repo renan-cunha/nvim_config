@@ -61,10 +61,6 @@ let g:airline_skip_empty_sections = 1
 let g:syntastic_python_checkers = ['flake8', 'mypy']
 
 
-"strange characters
-echo $VTE_VERSION
-
-
 "Map tab transitions
 no <C-Down> <C-w>j "switching to below window 
 no <C-Up> <C-w>k "switching to above window
