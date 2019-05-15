@@ -14,10 +14,10 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'cocopon/iceberg.vim'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'mortonfox/nerdtree-clip'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -97,3 +97,6 @@ set wrap "Wrap lines
 vnoremap <C-c> "+y
 
 set guicursor="0"
+
+" autocomplete path
+set autochdir
