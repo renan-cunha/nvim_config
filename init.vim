@@ -62,10 +62,14 @@ let g:syntastic_python_checkers = ['flake8', 'mypy']
 
 
 "Map tab transitions
-no <C-Down> <C-w>j "switching to below window 
-no <C-Up> <C-w>k "switching to above window
-no <C-Right> <C-w>l "switching to right window 
-no <C-Left> <C-w>h "switching to left window
+no <C-Down> <C-w>j 
+"switching to below window 
+no <C-Up> <C-w>k 
+"switching to above window
+no <C-Right> <C-w>l 
+"switching to right window 
+no <C-Left> <C-w>h 
+"switching to left window
 " columbar
 set colorcolumn=80
 
