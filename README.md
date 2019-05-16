@@ -17,6 +17,11 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vund
 ```
 6. Run :PluginInstall in the first time nvim is opened
 
+TODO:
+
+1. Use rope-vim to move modules and refactor
+2. ?
+
 Screenshots:
 ![](https://i.imgur.com/pkXhP1n.png)
 ![](https://i.imgur.com/IAprHYH.png)
