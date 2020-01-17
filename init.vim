@@ -33,7 +33,7 @@ filetype plugin indent on    " required
 
 "jedi vim
 autocmd FileType python setlocal completeopt-=preview
-let g:jedi#show_call_signatures = "1"
+let g:jedi#show_call_signatures = "2"
 let g:jedi#show_call_signatures_delay = "0"
 
 "general
